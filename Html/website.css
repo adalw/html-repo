@@ -1,0 +1,232 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+/* HEADER */
+
+.header {
+    position: fixed;
+    top:0;
+    min-width: 100%;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.header p{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: white;
+    font-family:cursive;
+    font-size: 35;
+    text-shadow: 1px 1px 4px black;
+}
+
+.header li{
+    display:inline;
+}
+
+.header a{
+    text-decoration: none;
+    padding: 3px 8px;
+    color: black;
+    
+}
+
+.header a:hover{
+    
+    color: white;
+    border-top: 3px white solid;
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.header ul{
+    text-align: right;
+    position: absolute;
+    right: 2%;
+    top: 5%; 
+    padding-top: 10px;
+}
+
+
+/* NAVI */
+
+/*problem mit= position: absolute;*/
+.navi{
+    margin-top:110px;    
+}
+
+.navi nav li{
+    display: inline;
+}
+
+.navi nav ul{
+    text-align: center;
+    margin-right: 0px;
+}
+
+.navi nav a{
+    padding: 1px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    border-radius: 10px;
+    border: 3px pink outset;
+    margin-left: 20px;
+}
+
+.navi nav a:hover{
+    color: blue;
+    background-color: azure;
+    border: 3px pink inset;
+}
+
+
+/* BLOCK */
+
+.block p{
+    width: 85%;
+    margin-top: 50px;
+    font-family: Calibri;
+    border-top: 7px white solid;
+    border-radius: 17px;
+    padding: 5px 10px
+}
+
+
+/* BLEOCKE */
+
+#a {
+    
+    text-align: left;
+    margin-top: 30;
+    width: 30%;
+    float: left;
+    color: red;
+    border: 5px groove blue;
+    font-family: Calibri;
+    margin-right: 100px;
+    margin-left: 15%;
+}
+
+#b {
+    text-align: left;
+    margin-top: 30;
+    padding-bottom: 39px;
+    width: 30%;
+    float: left;
+    color: blue;
+    border: 5px groove red;
+    font-family: Calibri;
+}
+
+span{
+    font-size: 1.5em;
+    color: black;
+    
+}
+
+.bloecke img{
+    
+    width: 35%;
+    height: 100px;
+    float: left;
+}
+
+.bloecke img:hover{
+    border-radius:40%;
+    box-shadow: 0 10px 6px -6px grey;
+}
+
+#b img{
+    float: right;
+}
+
+
+
+/* TABELLE */
+
+table{
+    border: 3px orange solid;
+    position: absolute;
+    margin-top: 350px;
+    left: 33%;
+    width: 500px;
+    height: 200px;  
+    margin-bottom: 70px;
+}
+
+tr{
+    
+    color: red;
+    font-size: 20pt;
+    background-color: skyblue;
+}
+
+td:hover{
+    background:black;
+    color:white;
+    text-shadow: 1px 1px 4px red;
+}
+
+table caption{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: cursive;
+    border-top: 7px white solid;
+    border-radius: 15px;
+
+}
+
+
+/*2 Text Blöcke*/
+
+.text1{
+    color: red;
+    width: 45%;
+    float:left;
+    border:5px solid yellow;
+    margin-bottom: 70px;
+    
+}
+
+.text2{
+    
+    color: blue;
+    width: 45%;
+    border:5px solid green;
+float: right;
+    margin-bottom: 70px;
+    
+}
+
+.zsm{
+    margin-top: 700px;
+    width: 30%;  
+}
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
